@@ -1,0 +1,42 @@
+form {
+    max-width: 300px;
+    margin: 40px auto;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+input,
+textarea {
+    padding: 10px;
+    background-color: #111;
+    color: white;
+    border: none;
+    resize: none;
+
+    &:focus {
+        outline: none;
+    }
+}
+
+button {
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    border: none;
+
+    &:first-of-type {
+        background-color: royalblue;
+    }
+
+    &:last-of-type {
+        background-color: orangered;
+    }
+
+    cursor: pointer;
+    transition: 0.3s;
+
+    &:hover {
+        opacity: 0.8;
+    }
+}
